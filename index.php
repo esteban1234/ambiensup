@@ -5,12 +5,12 @@
 		<header>
 			<img src="img/ambiensup.png" alt="AMBIENSUP ANALISTAS PROFESIONALES" class="img-responsive pull-left">
 
-			<div class="col-md-8 pull-right menu">
+			<div class="col-md-7 pull-right menu">
 				<ul class="nav nav-tabs">
-					<li role="presentation" class="active"><a href="index.php">INICIO</a></li>
-					<li role="presentation"><a href="vistas/nosotros.php">CONOCENOS</a></li>
-					<li role="presentation"><a href="vistas/servicios.php">SERVICIOS</a></li>
-					<li role="presentation"><a href="vistas/contacto.php">CONTACTO</a></li>
+					<li role="presentation" class="active"><a href="index.php">Inicio</a></li>
+					<li role="presentation"><a href="vistas/nosotros.php">Quienes Somos</a></li>
+					<li role="presentation"><a href="vistas/servicios.php">Servicios</a></li>
+					<li role="presentation"><a href="vistas/contacto.php">Contacto</a></li>
 				</ul>
 			</div>
 		</header>
