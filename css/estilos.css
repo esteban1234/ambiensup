@@ -1,0 +1,89 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    height: 220px;
+    background: url('../img/geo.jpg') no-repeat center;
+    background-size: cover;
+    /*background-position: center center;*/
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.contenedorpag {
+    width: 80%;
+    margin: 0 auto;
+    /*outline: 2px red solid;*/
+}
+
+body {
+    background-color: #1b2631;
+    /*background: linear-gradient( 0deg, #008080, #1b2631);*/
+    /*background: -webkit-linear-gradient(#1b2631, #008080);
+    background: -moz-linear-gradient(#1b2631, #008080);
+    background: -o-linear-gradient(#1b2631, #008080);
+    background: linear-gradient(#1b2631, #008080);*/
+}
+
+img {
+    /*outline: 2px white solid;*/
+    width: 20%;
+}
+
+.menu {
+    /*outline: 2px red solid;*/
+    vertical-align: top;
+    margin-right: 0%;
+    margin-top: 5%;
+}
+
+.menu li a {
+    color: rgb(151, 24, 43);
+    font-size: 25px;
+}
+
+.contenjum {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.jum {
+    /*outline: 2px red solid;*/
+    /*width: 80%;*/
+    /*margin-bottom: 0px;*/
+    overflow: hidden;
+}
+
+.colorh2 {
+    color: #fff;
+}
+
+.colorp {
+    color: #f0f3f4;
+}
+
+#imggeo {
+    /*outline: 2px red solid;*/
+    width: 92%;
+}
+
+.boton {
+    /*overflow: hidden;*/
+    clear: both;
+    text-align: center;
+    margin-top: 5%;
+}
+
+footer {
+    width: 100%;
+    margin-top: 2%;
+    /*background-color: #97182B;*/
+    background-color: #EEEEEE;
+    height: 200px;
+}
