@@ -15,6 +15,8 @@
 			</div>
 		</header>
 
+		<a class="go-top" href="#">Subir</a>
+
       		<div class="jumbotron jum">
 			  <article class="contenjum">
 			  	<h2>AMBIENSUP ANALISTAS PROFESIONALES</h2>
@@ -71,6 +73,7 @@
 	</article>
 
 <script src="js/jquery.js"></script>
+<script src="js/arriba.js"></script>
 <script src="js/bootstrap.js"></script>
 </body>
 </html>

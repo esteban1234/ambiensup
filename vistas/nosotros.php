@@ -15,6 +15,8 @@
 			</div>
 		</header>
 
+    <a class="go-top" href="#">Subir</a>
+
 		<ul class="breadcrumb text-right submenu">
 		  <li><a href="../index.php">Inicio</a> <span class="divider"></span></li>
 		  <li class="active">Quienes Somos</li>
@@ -40,36 +42,36 @@
 
         <div class="row">
           <div class="col-md-3">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
-            class="img-responsive">
+            <img src="../img/mision.jpg"
+            class="img-responsive imgmvs">
             <h2 class="colorh2">Misión</h2>
             <p class="colorp">
-            	Ofrecer servicios de consultoría al sector ambiental, servicos de levantamiento geofísico y servicos de arquitectura con la mas alta calidad y apegados a estandares internacionales atendiendo las necesidades de nuestros clientes de forma rápida, profesional y con enfoque humanista.
+            	Ofrecer servicios de consultoría del sector ambiental, servicos de levantamiento geofísico y servicos de arquitectura con la mas alta calidad y apegados a estandares internacionales atendiendo las necesidades de nuestros clientes de forma rápida, profesional y con enfoque humanista.
             </p>
           </div>
           <div class="col-md-3">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
-            class="img-responsive">
+            <img src="../img/vision.png"
+            class="img-responsive imgmvs">
             <h2 class="colorh2">Visión</h2>
-            <p class="colorp">Lorem ipsum dolor sit amet, consectetur adipisici elit,
-              <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
-              <br>Ut enim ad minim veniam, quis nostrud</p>
+            <p class="colorp">
+              Ser una empresa reconocida cuyo trabajo contribuye a la generación y fortalecimiento de una cultura ambiental en todos sus servicios y por lo consiguiente lider en el sector de la consultoría y servicios geofísicos.
+            </p>
           </div>
           <div class="col-md-3">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
-            class="img-responsive img-rounded">
+            <img src="../img/objetivo.jpg"
+            class="img-responsive imgmvs">
             <h2 class="colorh2">Objetivo</h2>
-            <p class="colorp">Lorem ipsum dolor sit amet, consectetur adipisici elit,
-              <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
-              <br>Ut enim ad minim veniam, quis nostrud</p>
+            <p class="colorp">
+              Brindar los mejores servicios de análisis Geofísicos del mercado, apoyándonos completamente de todo nuestro equipo, conocimiento y experiencia, contando con la innovación, la actualización tecnológica, y la satisfacción de nuestros clientes. 
+            </p>
           </div>
           <div class="col-md-3">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
-            class="img-responsive">
+            <img src="../img/valores.jpg"
+            class="img-responsive imgmvs">
             <h2 class="colorh2">Valores</h2>
-            <p class="colorp">Lorem ipsum dolor sit amet, consectetur adipisici elit,
-              <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
-              <br>Ut enim ad minim veniam, quis nostrud</p>
+            <p class="colorp">
+              Nuestros valores son, la honestidad, lealtad, trabajo y responsabilidad, para entregarle los mas rentables resultados y fortalecer al máximo su proyecto.
+            </p>
           </div>
         </div>
 
@@ -77,7 +79,8 @@
 
 	</article>
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/arriba.js"></script>
 </body>
 </html>
