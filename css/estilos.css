@@ -132,3 +132,60 @@ footer {
 .imgmvs {
     width: 90%;
 }
+/*--------------servicios---------------------------------*/
+.baner{
+    width: 100%;
+    /*outline: 2px red solid;*/
+    overflow: hidden;
+    color: #fff;
+}
+.textbaner{
+    border-right: 1px #fff solid;
+    border-left: 1px #fff solid;
+    width: 50%;
+    margin:0 auto;
+    padding: 20px;
+    text-align: justify;
+    font-size: 17px;
+}
+.contenservicios1{
+    width: 100%;
+    /*outline: 2px red solid;*/
+    overflow: hidden;
+    /*background-color: #fff;*/
+    margin-top: 2%;
+}
+.contenservicios2{
+    width: 100%;
+    /*outline: 2px red solid;*/
+    overflow: hidden;
+    /*background-color: #fff;*/
+    margin-top: 2%;
+}
+
+.contenservicios3{
+    width: 100%;
+    /*outline: 2px red solid;*/
+    overflow: hidden;
+    /*background-color: #fff;*/
+    margin-top: 2%;
+}
+
+.titulo{
+    /*border: 2px red solid;*/
+    color: #fff;
+    width: 80%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+/*-------------contacto---------------------*/
+#contact{
+    background:#333333;
+    color:#f4f4f4;
+    padding-bottom:80px;
+}
+
+textarea.form-control{
+    height:100px;
+}

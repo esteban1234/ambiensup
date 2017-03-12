@@ -29,7 +29,7 @@
 				<h1 class="colorh2 text-center">Soluciones Geofísicas</h1> <br>
 		        <!-- <div class="row"> -->
 		          <div class="col-md-4">
-		            <img id="imggeo" src="img/geotecnia.jpg"
+		            <img id="imggeo" src="`img/geotecnia.jpg"
 		            class="img-responsive">
 		            <h2 class="colorh2">Geotécnia</h2>
 		            <p class="colorp">
