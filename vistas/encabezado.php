@@ -12,7 +12,7 @@
   	<META NAME="Keywords" CONTENT="consultoría en medio ambiente en mérida, servicios de levantamiento geofísico en mérida, consultoría en medio ambiente, consultoría en medio ambiente en mérida yucatan, servicios de levantamiento geofísico en merida yucatan, servicios de levantamiento geofísico, servicios de arquitectura."/>
   	<link rel="stylesheet" href="css/bootstrap.css">
   	<link rel="stylesheet" href="css/iconos.min.css">
-		<link rel="stylesheet" href="css/estilos.css">
-		<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/responsivo.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Oswald|Roboto|Roboto+Condensed" rel="stylesheet">
 </head>

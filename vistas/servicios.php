@@ -3,16 +3,18 @@
 <body>
 	<article class="contenedorpag">
 			<header>
-			<img src="../img/ambiensup.png" alt="AMBIENSUP ANALISTAS PROFESIONALES" class="img-responsive pull-left">
+			<img src="../img/ambiensup.png" alt="AMBIENSUP ANALISTAS PROFESIONALES" class="img-fondo">
 
-			<div class="col-md-7 pull-right menu">
+			<div class="col-md-8 pull-right menu">
 				<ul class="nav nav-tabs">
+					<p class="icon-cerrar"><i class="fa fa-times" aria-hidden="true"></i></p>
 					<li role="presentation"><a href="../index.php">Inicio</a></li>
 					<li role="presentation"><a href="nosotros.php">Quienes Somos</a></li>
 					<li role="presentation" class="active"><a href="servicios.php">Servicios</a></li>
 					<li role="presentation"><a href="contacto.php">Contacto</a></li>
 				</ul>
 			</div>
+			<p class="icon-menu"><i class="fa fa-bars" aria-hidden="true"></i></p>
 		</header>
 
     <a class="go-top" href="#">Subir</a>
@@ -33,7 +35,7 @@
 				<div class="hola">
 				<!-- <h1 class="colorh2 text-center">Soluciones Geofísicas</h1> <br> -->
 		        <!-- <div class="row"> -->
-		          <div class="col-md-4">
+		          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		            <img id="imggeo" src="../img/geotecnia.jpg"
 		            class="img-responsive">
 		            <h2 class="colorh2">Geotécnia</h2>
@@ -44,7 +46,7 @@
 		            	<b><i class="fa fa-check-square-o" aria-hidden="true"></i>&nbsp;Tomografia Sismica</b>
 		            </p>
 		          </div>
-		          <div class="col-md-4">
+		          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		            <img id="imggeo" src="../img/mag.jpg"
 		            class="img-responsive">
 		            <h2 class="colorh2">Métodos electromagnéticos</h2>
@@ -53,7 +55,7 @@
 		            	<b><i class="fa fa-check-square-o" aria-hidden="true"></i>&nbsp;Transitorio Electromagnético TEM</b>
 		            </p>
 		          </div>
-		          <div class="col-md-4">
+		          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		            <img id="imggeo" src="../img/elec.jpg"
 		            class="img-responsive">
 		            <h2 class="colorh2">Métodos eléctricos</h2>
@@ -72,7 +74,7 @@
 				<div class="hola">
 				<!-- <h1 class="colorh2 text-center">Soluciones Geofísicas</h1> <br> -->
 		        <!-- <div class="row"> -->
-		          <div class="col-md-4">
+		          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		            <img id="imggeo" src="../img/impacto.jpg"
 		            class="img-responsive">
 		            <h2 class="colorh2">Impacto Ambiental</h2>
@@ -83,7 +85,7 @@
 		            	<!-- <b><i class="fa fa-check-square-o" aria-hidden="true"></i>&nbsp;Tomografia Sismica</b> -->
 		            </p>
 		          </div>
-		          <div class="col-md-4">
+		          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		            <img id="imggeo" src="../img/seguridad.jpg"
 		            class="img-responsive">
 		            <h2 class="colorh2">Seguridad y Riesgo Ambiental</h2>
@@ -94,7 +96,7 @@
 		            	<b><i class="fa fa-check-square-o" aria-hidden="true"></i>&nbsp;Manejo de Residuos Peligrosos.</b>
 		            </p>
 		          </div>
-		          <div class="col-md-4">
+		          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		            <img id="imggeo" src="../img/eco.jpg"
 		            class="img-responsive">
 		            <h2 class="colorh2">Ecoturismo</h2>
@@ -113,7 +115,7 @@
 				<div class="hola">
 				<!-- <h1 class="colorh2 text-center">Soluciones Geofísicas</h1> <br> -->
 		        <!-- <div class="row"> -->
-		          <div class="col-md-4">
+		          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		            <img id="imggeo" src="../img/planos.jpg"
 		            class="img-responsive">
 		            <h2 class="colorh2">Proyectos</h2>
@@ -126,7 +128,7 @@
 		            	<!-- <b><i class="fa fa-check-square-o" aria-hidden="true"></i>&nbsp;Tomografia Sismica</b> -->
 		            </p>
 		          </div>
-		          <div class="col-md-4">
+		          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		            <img id="imggeo" src="../img/diseño.jpg"
 		            class="img-responsive">
 		            <h2 class="colorh2">Diseño</h2>
@@ -137,7 +139,7 @@
 		            	<b><i class="fa fa-check-square-o" aria-hidden="true"></i>&nbsp;Mobiliario y stands llave en mano: diseño, &nbsp;&nbsp;&nbsp;&nbsp;fabricación, montaje y mantenimiento.</b>
 		            </p>
 		          </div>
-		          <div class="col-md-4">
+		          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		            <img id="imggeo" src="../img/gestion3.jpg"
 		            class="img-responsive">
 		            <h2 class="colorh2">Gestión</h2>
@@ -154,7 +156,8 @@
 		<?php include 'pie.php' ?>
 	</article>
 
-	<script src="../js/jquery.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/menu.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/arriba.js"></script>
 </body>

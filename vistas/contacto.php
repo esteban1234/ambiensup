@@ -3,16 +3,18 @@
 <body>
 	<article class="contenedorpag">
 			<header>
-			<img src="../img/ambiensup.png" alt="AMBIENSUP ANALISTAS PROFESIONALES" class="img-responsive pull-left">
+			<img src="../img/ambiensup.png" alt="AMBIENSUP ANALISTAS PROFESIONALES" class="img-fondo">
 
-			<div class="col-md-7 pull-right menu">
+			<div class="col-md-8 pull-right menu">
 				<ul class="nav nav-tabs">
+          <p class="icon-cerrar"><i class="fa fa-times" aria-hidden="true"></i></p>
 					<li role="presentation"><a href="../index.php">Inicio</a></li>
 					<li role="presentation"><a href="nosotros.php">Quienes Somos</a></li>
 					<li role="presentation"><a href="servicios.php">Servicios</a></li>
 					<li role="presentation" class="active"><a href="contacto.php">Contacto</a></li>
 				</ul>
 			</div>
+      <p class="icon-menu"><i class="fa fa-bars" aria-hidden="true"></i></p>
 		</header>
 
     <a class="go-top" href="#">Subir</a>
@@ -30,22 +32,22 @@
               <p>Porfavor dejanos tus comentarios a traves de este formulario y nosotros no comunicaremos lo mas pronto posible.</p>
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                  <form class="form-horizontal">
+                  <form action="envia.php" method="post" class="form-horizontal">
                     <div class="form-group">
                       <label for="exampleInputName2">Nombre (s)</label>
-                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Escribe tu nombre">
+                      <input type="text" class="form-control" name="nombre" id="exampleInputName2" placeholder="Escribe tu nombre">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputEmail2">Email</label>
-                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="ejemplo@ejemplo.com">
+                      <input type="email" class="form-control" name="correo" id="exampleInputEmail2" placeholder="ejemplo@ejemplo.com">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputtel">Teléfono</label>
-                      <input type="text" class="form-control" id="exampleInputtel" placeholder="Escribe tu Teléfono">
+                      <input type="text" class="form-control" name="telefono" id="exampleInputtel" placeholder="Escribe tu Teléfono">
                     </div>
                     <div class="form-group ">
                       <label for="exampleInputText">Comentario</label>
-                     <textarea  class="form-control" placeholder="Escribenos tu mensaje"></textarea> 
+                     <textarea  class="form-control" name="comentario" placeholder="Escribenos tu mensaje"></textarea> 
                     </div>
                     <button type="submit" class="btn btn-default">Enviar Mensaje</button>
                   </form>
@@ -66,8 +68,10 @@
 		<?php include 'pie.php' ?>
 	</article>
 
-	<script src="../js/jquery.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/menu.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/arriba.js"></script>
+
 </body>
 </html>

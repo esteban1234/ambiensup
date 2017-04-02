@@ -1,0 +1,2 @@
+ ErrorDocument 403 http://localhost/github/ambiensup/index.php
+ Options -Indexes

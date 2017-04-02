@@ -3,21 +3,23 @@
 <body>
 	<article class="contenedorpag">
 		<header>
-			<img src="img/ambiensup.png" alt="AMBIENSUP ANALISTAS PROFESIONALES" class="img-responsive pull-left">
+			<img src="img/ambiensup.png" alt="AMBIENSUP ANALISTAS PROFESIONALES" class="img-fondo">
 
-			<div class="col-md-7 pull-right menu">
+			<div class="col-md-8 pull-right menu">
 				<ul class="nav nav-tabs">
+					<p class="icon-cerrar"><i class="fa fa-times" aria-hidden="true"></i></p>
 					<li role="presentation" class="active"><a href="index.php">Inicio</a></li>
 					<li role="presentation"><a href="vistas/nosotros.php">Quienes Somos</a></li>
 					<li role="presentation"><a href="vistas/servicios.php">Servicios</a></li>
 					<li role="presentation"><a href="vistas/contacto.php">Contacto</a></li>
 				</ul>
 			</div>
+			<p class="icon-menu"><i class="fa fa-bars" aria-hidden="true"></i></p>
 		</header>
 
 		<a class="go-top" href="#">Subir</a>
 
-      		<div class="jumbotron jum">
+      <div class="jumbotron jum">
 			  <article class="contenjum">
 			  	<h2>AMBIENSUP ANALISTAS PROFESIONALES</h2>
 			  	<p>Somos una empresa con años de experiencia dedicada a resolver problemas Geofísicos y Ambientales.</p>
@@ -28,7 +30,7 @@
 			<div class="hola">
 				<h1 class="colorh2 text-center">Soluciones Geofísicas</h1> <br>
 		        <!-- <div class="row"> -->
-		          <div class="col-md-4">
+		          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
 		            <img id="imggeo" src="img/geotecnia.jpg"
 		            class="img-responsive">
 		            <h2 class="colorh2">Geotécnia</h2>
@@ -39,7 +41,7 @@
 		            	<b><i class="fa fa-check-square-o" aria-hidden="true"></i>&nbsp;Tomografia Sismica</b>
 		            </p>
 		          </div>
-		          <div class="col-md-4">
+		          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
 		            <img id="imggeo" src="img/mag.jpg"
 		            class="img-responsive">
 		            <h2 class="colorh2">Métodos electromagnéticos</h2>
@@ -48,7 +50,7 @@
 		            	<b><i class="fa fa-check-square-o" aria-hidden="true"></i>&nbsp;Transitorio Electromagnético TEM</b>
 		            </p>
 		          </div>
-		          <div class="col-md-4">
+		          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
 		            <img id="imggeo" src="img/elec.jpg"
 		            class="img-responsive">
 		            <h2 class="colorh2">Métodos eléctricos</h2>
@@ -72,7 +74,9 @@
 
 	</article>
 
+
 <script src="js/jquery.js"></script>
+<script src="js/menu.js"></script>
 <script src="js/arriba.js"></script>
 <script src="js/bootstrap.js"></script>
 </body>
