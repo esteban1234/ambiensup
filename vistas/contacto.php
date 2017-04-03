@@ -35,19 +35,19 @@
                   <form action="envia.php" method="post" class="form-horizontal">
                     <div class="form-group">
                       <label for="exampleInputName2">Nombre (s)</label>
-                      <input type="text" class="form-control" name="nombre" id="exampleInputName2" placeholder="Escribe tu nombre">
+                      <input type="text" class="form-control" name="nombre" id="exampleInputName2" placeholder="Escribe tu nombre" required/>
                     </div>
                     <div class="form-group">
                       <label for="exampleInputEmail2">Email</label>
-                      <input type="email" class="form-control" name="correo" id="exampleInputEmail2" placeholder="ejemplo@ejemplo.com">
+                      <input type="email" class="form-control" name="correo" id="exampleInputEmail2" placeholder="ejemplo@ejemplo.com" required/>
                     </div>
                     <div class="form-group">
                       <label for="exampleInputtel">Teléfono</label>
-                      <input type="text" class="form-control" name="telefono" id="exampleInputtel" placeholder="Escribe tu Teléfono">
+                      <input type="text" class="form-control" name="telefono" id="exampleInputtel" placeholder="Escribe tu Teléfono" required/>
                     </div>
                     <div class="form-group ">
                       <label for="exampleInputText">Comentario</label>
-                     <textarea  class="form-control" name="comentario" placeholder="Escribenos tu mensaje"></textarea> 
+                     <textarea  class="form-control" name="comentario" placeholder="Escribenos tu mensaje" required/></textarea> 
                     </div>
                     <button type="submit" class="btn btn-default">Enviar Mensaje</button>
                   </form>
