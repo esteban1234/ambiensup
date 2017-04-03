@@ -23,7 +23,7 @@
 			  <article class="contenjum">
 			  	<h2>AMBIENSUP ANALISTAS PROFESIONALES</h2>
 			  	<p>Somos una empresa con años de experiencia dedicada a resolver problemas Geofísicos y Ambientales.</p>
-			  	<p><a class="btn btn-danger btn-lg" href="#" role="button"><i class="fa fa-volume-control-phone" aria-hidden="true"></i>&nbsp;Contáctanos</a></p>
+			  	<p><a class="btn btn-danger btn-lg" href="vistas/contacto.php" role="button"><i class="fa fa-volume-control-phone" aria-hidden="true"></i>&nbsp;Contáctanos</a></p>
 			  </article>
 			</div>
 
@@ -66,7 +66,7 @@
 			
 			<br>
             <article class="boton">
-            	<a class="btn btn-danger btn-lg" href="#" role="button"><i class="fa fa-volume-control-phone" aria-hidden="true"></i>&nbsp;Servicios</a>
+            	<a class="btn btn-danger btn-lg" href="vistas/servicios.php" role="button"><i class="fa fa-volume-control-phone" aria-hidden="true"></i>&nbsp;Servicios</a>
             	   <!-- <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star -->
             </article>
 
