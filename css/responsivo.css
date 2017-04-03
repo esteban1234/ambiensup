@@ -21,6 +21,7 @@
         height: 100%;
         background:#1b2631;
         z-index: 1000;
+        display: none;
     }
 
     .nav{
@@ -170,6 +171,7 @@
         height: 100%;
         background:#1b2631;
         z-index: 1000;
+        display: none;
     }
 
     .nav{
@@ -338,6 +340,7 @@
         height: 100%;
         background:#1b2631;
         z-index: 1000;
+        display: none;
     }
 
     .nav{
@@ -506,9 +509,7 @@
     /****************************DISEÑO INDEX*****************************/
 
 
-    .menu{
-        display: block;
-    }
+    
 
     .contenedorpag{
         width: 95%;

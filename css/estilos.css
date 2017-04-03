@@ -35,11 +35,9 @@ img {
 }
 
 .menu {
-    /*outline: 2px red solid;*/
     vertical-align: top;
     margin-right: 0%;
     margin-top: 5%;
-    display: none;
 }
 
 .menu li a {
