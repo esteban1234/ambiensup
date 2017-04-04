@@ -6,7 +6,7 @@
       C. 11-A #327 por 60 y 38-A<br>
       Fracc. del Norte, Mérida, Yucatán<br>
       <strong>Teléfono:</strong> PENDIENTE <br>
-      <strong>Correo:</strong><a href="mailto:info@pendiente.com"> info@pendiente.com</a> <br>
+      <strong>Correo:</strong><a href="mailto:info@ambiensup.com"> info@ambiensup.com</a> <br>
       <strong>Horario:</strong> Lunes a Viernes de 9am a 6pm
     </div>
   </div>
